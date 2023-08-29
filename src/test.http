@@ -1,0 +1,28 @@
+POST http://localhost:8080/jsonrpc
+
+[
+  {"jsonrpc":"2.0","method":"test1","params":{"ids":"bye"}}
+]
+
+###
+GET http://localhost:8181/account
+
+###
+POST http://localhost:8181/account/tx
+
+{ 
+  "to": 2,
+  "from" : 1,
+  "amount" : 1050
+}
+
+###
+POST http://localhost:8181/account
+Content-Type: application/json
+
+{
+    "name" : "Mees Bloem"
+}
+
+###
+DELETE http://localhost:8181/account/1

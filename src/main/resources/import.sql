@@ -1,0 +1,3 @@
+INSERT INTO account (id, accounttype, owner, name, number, balance_amount, balance_currency, usagetype) VALUES (1, 'FIAT', '69e9fa16-9259-44e1-8fe2-39b99dd9f090', 'Meessie', 'NL23 ABNA 9486 4576 89', 1002.35, 'EUR', 'Ondernemersrekening');
+INSERT INTO account (id, accounttype, owner, name, number, balance_amount, balance_currency, usagetype) VALUES (2, 'DLT', '69e9fa16-9259-44e1-8fe2-39b99dd9f090', 'Mees Bloem', 'GA2Q36UWRHMRdYUPv1CVU58MuJkaja', 655.99, 'EUR', 'Blockchain rekening');
+INSERT INTO account (id, accounttype, owner, name, number, balance_amount, balance_currency, usagetype) VALUES (3, 'EXTERNAL', '69e9fa16-9259-44e1-8fe2-39b99dd9f090', 'Rabobank', 'NL44 RABO 0123 4567 89', 250.20, 'BTC', 'Bankrekening');
